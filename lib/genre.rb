@@ -13,6 +13,11 @@ class Genre
     Song.all.select do |song|
       song.genre 
   end
+end
+  
+  def artists 
+    songs.map do |song| 
+      song.artists 
     
     
   
