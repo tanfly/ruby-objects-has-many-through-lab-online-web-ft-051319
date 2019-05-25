@@ -15,6 +15,12 @@ class Song
    @@all 
  end
  
+ def save(name, artist, genre)
+   @@all << name 
+   @@all << artist 
+   @@all << genre 
+ end
+ 
  
   
 end
