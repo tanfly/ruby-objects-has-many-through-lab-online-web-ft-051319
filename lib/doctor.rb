@@ -19,6 +19,8 @@ class Doctor
     end
   end
   
+  def patients 
+  
   def self.all 
     @@all 
   end
