@@ -20,6 +20,8 @@ class Doctor
   end
   
   def patients 
+    appointments.map do |appt|
+      appt.patent
   
   def self.all 
     @@all 
